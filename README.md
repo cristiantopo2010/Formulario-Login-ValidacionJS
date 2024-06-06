@@ -1,1 +1,1 @@
-// Sitio web Netlify: https://login-validacionjs.netlify.app/
+// Website: https://login-validacionjs.netlify.app/
