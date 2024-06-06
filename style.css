@@ -1,0 +1,78 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F4F4F4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #00878E;
+    background-color: #9EEDEF;
+    width: 350px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: #00878E;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    margin-bottom: 5px;
+    color: #00878E;
+    font-weight: bold;
+}
+
+.show-hide{
+    cursor: pointer;
+    color: #00878E;
+    position: relative;
+    top: -43px;
+    right: 5px;
+    float: right;
+    padding: 5px;
+    transition: all .5s ease;
+}
+
+.show-hide:hover{
+    color: #002A32;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    background-color: #00878E;
+    border: none;
+    border-radius: 10px;
+    color: #F4F4F4;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all .5s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #002A32;
+}
+
+.error-message{
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: none;
+    font-size: 12.5px;
+}
+
